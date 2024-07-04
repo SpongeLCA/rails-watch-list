@@ -1,0 +1,32 @@
+/* app/assets/stylesheets/custom.css */
+.fixed-size-image {
+  max-height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+}
+
+.btn-success {
+  background-color: #28a745;
+}
+
+.btn-danger:hover, .btn-success:hover {
+  opacity: 0.8;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-group-item span {
+  flex-grow: 1;
+}
+
+.list-group-item .btn-sm {
+  margin-left: 10px;
+}
